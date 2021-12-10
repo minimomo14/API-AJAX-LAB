@@ -8,14 +8,12 @@ body {
     align-items: center;
     border:5px rgb(238, 144, 188);
     border-style: dashed;
-
 }
 h3 {
     color: rgb(255, 71, 178);
     text-shadow: 0px 0px 20px rgb(255, 138, 71);
     font-display:initial;
     font-weight: bold;
- 
 }
 
 div {
@@ -35,6 +33,5 @@ img {
  }
 
 img:hover {
-    transform: scale(1.2);
-    
+    transform: scale(1.2);    
 }

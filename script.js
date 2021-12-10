@@ -1,7 +1,8 @@
 /// First Version 
 console.log("working !!!")
 
-// 1.fetch 2..then 3.json 4 console.log to check data
+// To do: 1.fetch 2..then 3.json 4 console.log to check data
+
 const body = document.querySelector("#body");
 
 //const awwPromise = 
