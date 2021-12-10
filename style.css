@@ -1,25 +1,40 @@
 
 body {
     font-family: 'Fuzzy Bubbles', cursive;
-    background-color: rgb(163, 238, 238);
-    
+    background-color: rgb(159, 199, 199);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     border:5px rgb(238, 144, 188);
     border-style: dashed;
 
 }
+h3 {
+    color: rgb(255, 71, 178);
+    text-shadow: 0px 0px 20px rgb(255, 138, 71);
+    font-display:initial;
+    font-weight: bold;
+ 
+}
+
 div {
-    
+    display: flexbox;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 img {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    border-style: solid;
+    align-content: center;
+    border:rgb(185, 136, 152);
     border-radius: 50%;
     width: 200px;
     height: 200px;
+ }
+
+img:hover {
+    transform: scale(1.2);
+    
 }
