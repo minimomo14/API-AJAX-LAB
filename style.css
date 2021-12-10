@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: rgb(163, 238, 238);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:5px rgb(238, 144, 188);
+    border-style: dashed;
+
+}
+div {
+    
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
